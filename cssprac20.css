@@ -1,0 +1,11 @@
+@media print {
+    a::after{
+        display: inline;
+        content:"("attr(href)")";
+        /*after는 가상요소로, 내부의 가장 마지막 요소를 가리킨다. 물론 새로 생성된다. 
+        여기서 a의 before로 선언하면 a내부의 텍스트의 가장 앞으로 간다. 이는 a 내부의 텍스트 또한 inline 요소이기 때문이다.*/
+    }
+    a{
+        text-decoration: none;
+    }
+}

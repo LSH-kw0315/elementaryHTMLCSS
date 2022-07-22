@@ -1,0 +1,8 @@
+*{color:red;}
+em{color:gold;}
+h1#page{color: gray;}
+.box { color: red !important; }
+.index > .in_item { color: pink; }
+div ul .in_item { color: orange; }
+.in_item.in1 { color: black; }
+p + ul.index { color: yellow; }

@@ -1,0 +1,34 @@
+.container{
+    width: 400px;
+    padding:15px;
+    border:1px dashed #aaa;
+}
+.container div{
+    width:100px;
+    height:100px;
+}
+.container div:nth-child(1){
+    background-color: green;
+}
+.container div:nth-child(2){
+    background-color:skyblue;
+}
+.f_1{
+    float:left;
+}
+.f_2{
+    float:left;
+    border:2px solid red;
+}
+.s_1{
+    float: left;
+}
+.s_2{
+    float:right;
+}
+.t_2{
+    width: 100px;
+    height:100px;
+    background: skyblue;
+    
+}

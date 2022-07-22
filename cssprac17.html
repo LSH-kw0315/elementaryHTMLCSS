@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>css</title>
+        <link rel="stylesheet" href="./cssprac17.css">
+    </head>
+    <body>
+        <div style="display:none">
+            <h1>position (Offset 미지정)</h1>
+            <h2>static (기본)</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child static">static</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>relative</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child relative">relative</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>absolute</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <span class="child absolute">absolute</span>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>fixed</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child fixed">fixed</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+        </div>
+
+        <div>
+            <h1>position (Offset 지정)</h1>
+            <h2>static (기본)</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child_offset static">static</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>relative</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child_offset relative">relative</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>absolute</h2>
+            <div class="parent relative">
+                <div class="sibling">Sibling 1</div>
+                <div class="child_offset absolute">absolute</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+
+            <h2>fixed</h2>
+            <div class="parent">
+                <div class="sibling">Sibling 1</div>
+                <div class="child_offset fixed">fixed</div>
+                <div class="sibling">Silbing 2</div>
+            </div>
+        </div>
+    </body>
+</html>

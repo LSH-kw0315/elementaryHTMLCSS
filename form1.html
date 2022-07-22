@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+ <head>
+   <meta charset="utf-8">
+   <title>form</title>
+ </head>
+ <body>
+  <form action="/form1.html">
+   <h1>Form 관련 요소</h1>
+   <fieldset>
+    <legend>기본 정보</legend>
+    <label for="userid">아이디:</label><input type="text" placeholder="please input id" id="userid"> <br>
+    <label for="userpw">비밀번호:</label><input type="password" id="userpw"><br>
+    성별: <label for="male">남성</label><input type="radio" name="sex" id="male"> <label for="female">여성</label><input type="radio" name="sex" id="female"><br>
+   </fieldset>
+   <fieldset>
+    <legend>부가 정보</legend>
+    취미: 영화감상 <input type="checkbox" name="hobby"> 음악감상 <input type="checkbox" name="hobby"> 독서 <input type="checkbox" name="hobby"> <br>
+    프로필사진 업로드: <input type="file"> <br>
+    <input type="submit" value="전송"> <br>
+    <input type="reset" value="취소"><br>
+    <input type="button" value="등록"><br>
+    <input type="image" src="./fortest.jpg" alt="로그인" width="100px"> <br>
+    사는 지역: <select>
+     <option>서울</option>
+     <option>경기</option>
+     <option>강원</option>
+     <option>제주</option>
+    </select><br>
+    자기소개<br>
+    <textarea cols="30" rows="5" placeholder="I'm gay!"></textarea>
+    <br>
+    <button type="submit">
+     전송
+    </button>
+    <button type="reset">
+     취소
+    </button>
+
+   </fieldset>
+
+  
+  </form>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+div{
+    height: 1500px;
+    background-color: pink;
+    background-image: url(./fortest.jpg);
+    background-repeat: no-repeat;
+    background-position:0 0;
+}
+span{
+    background-color: pink;
+}

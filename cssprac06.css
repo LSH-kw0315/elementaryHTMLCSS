@@ -1,0 +1,7 @@
+li:first-child { color:red;}
+li:last-child{color:blue;}
+a:link {color:blue;}
+a:visited{color:purple;}
+a:focus{background-color: yellow;}
+a:hover{font-weight: bold;}
+a:active{color:red;}

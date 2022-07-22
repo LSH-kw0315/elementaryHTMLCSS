@@ -1,0 +1,52 @@
+.parent {
+    border:1px dashed #aaa;
+    padding:10px;
+}
+.sibling{
+    padding:5px;
+    background-color: #eee;
+    text-align:center;
+}
+.child,.child_offset{
+    width:60px;
+    height: 60px;
+    padding:20px;
+    background-color: #dc3636;
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    border:1px solid #333;
+
+}
+.child_offset{
+    background-color: #3677dc;
+    /*배경색 재정의*/
+}
+.static{
+    position:static;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position:absolute;
+}
+.fixed{
+    position:fixed;
+}
+.child_offset.static{
+    top:40px;
+    right:40px;
+}
+.child_offset.relative{
+    top:40px;
+    right:40px;
+}
+.child_offset.fixed{
+    top:50%;
+    left:80%;
+}
+.child_offset.absolute{
+    top:40px;
+    left:80px;
+}

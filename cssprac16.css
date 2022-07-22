@@ -1,0 +1,38 @@
+.container{
+    border:1px dashed #aaa;
+}
+div,span{
+    padding:20px;
+    border:1px solid red;
+}
+.firstdiv{
+    float:left;
+}
+.firstspan{
+    display: block;
+    clear:none;
+}
+.seconddiv{
+    float:left;
+}
+.secondspan{
+    clear:left;
+    display:block;
+}
+.thirddiv{
+    float:right;
+}
+.thirdspan{
+    display:inline-block;
+    clear:right;
+}
+.fourthdiv_1{
+    float:left;
+}
+.fourthdiv_2{
+    float:right;
+}
+.fourthspan{
+    display:block;
+    clear:both;
+}

@@ -1,0 +1,4 @@
+/*p[class~="color"]{font-style: italic;}*/
+/*p[class^="color"]{font-style: italic;}*/
+/*p[class$="color"]{font-style: italic;}*/
+p[class*="color"]{font-style: italic;}

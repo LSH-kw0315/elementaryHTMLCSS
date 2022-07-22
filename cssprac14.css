@@ -1,0 +1,21 @@
+.first{
+    display: inline;
+    background:pink;
+    font-size: 50px;
+    }
+.second{
+    display: none;
+    background:pink;
+    width:100px;
+    height: 100px;
+    margin:10px;
+    padding:10px;
+    border:10px solid red;
+}
+.third{
+    display:inline-block;
+    background:pink;
+    font-size: 50px;
+
+}
+
